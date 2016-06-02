@@ -14,5 +14,4 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
         node-sass \
         typings \
         typescript@next \
-        @mumbacloud/dmport \
-        && ln -s "$(which nodejs)" /usr/bin/node
+        @mumbacloud/dmport
