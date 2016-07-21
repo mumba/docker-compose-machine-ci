@@ -8,7 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
             nodejs \
             git \
             python-pip \
-            build-essential
+            build-essential \
     && pip install awscli \
     && npm install -g \
         bower \
