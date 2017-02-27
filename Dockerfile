@@ -12,7 +12,8 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
             jq \
             curl \
     && pip install --upgrade pip \
-    && pip install -U setuptools awscli \
+    && pip install -U setuptools \
+    && pip install -U awscli \
     && npm install -g \
         bower \
         node-sass \
