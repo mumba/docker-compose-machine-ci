@@ -11,6 +11,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
             build-essential \
             jq \
             curl \
+    && pip install --upgrade pip \
     && pip install awscli \
     && npm install -g \
         bower \
